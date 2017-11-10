@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:padding="50sp">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:padding="10sp"
+        android:text="Dear Diary"
+        android:textColor="@color/colorText"
+        android:textSize="50sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/dataentry"
+        android:layout_width="match_parent"
+        android:layout_height="150sp"
+
+        android:background="#E57373"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="10sp"
+        android:hint="Your Entry Goes Here ! :)"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/editText6"
+        android:layout_alignParentStart="true"
+        android:fontFamily="cursive"/>
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:background="#E57373"
+        android:ems="10"
+        android:hint="Title"
+        android:inputType="textPersonName"
+        android:padding="10sp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:padding="10sp"
+
+        android:textColor="@color/colorText"
+        android:textSize="22sp"
+
+        android:text="ADD"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

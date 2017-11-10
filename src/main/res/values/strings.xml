@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Dear Diary</string>
+    <string name="title_activity_diary">DiaryActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_diary2">Diary2Activity</string>
+</resources>
